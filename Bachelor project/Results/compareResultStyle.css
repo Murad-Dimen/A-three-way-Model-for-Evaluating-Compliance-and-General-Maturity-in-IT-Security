@@ -1,0 +1,222 @@
+/* 
+* body style: centralize the content of the body-
+* adding background color, and the text color.
+*/ 
+body{
+  background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(194, 194, 194));
+  color: #000000;
+  text-align: center;
+  justify-content: center;
+  font-size:large;
+}
+
+/* 
+* adding custom color and styling to the nav- 
+* to match our page style
+*/ 
+.navbar {
+  background-color: #0c0c0f;
+  margin-bottom: 0;
+  border-radius: 0;
+  font-size: medium;
+}
+.navbar-brand{
+  padding-right: 50px;
+}
+
+/*
+* Style for the content at the start
+* (Befor the files uploaded)
+*/
+.content{
+  margin: auto;
+  padding: 8px;
+  margin-top: 5%;
+  width: 80%;
+
+}
+
+/*
+* style for the files uploading input and labels
+*/
+#file1,#file2{
+  display: inline-block;
+  margin-left: 1%;
+}
+
+/*
+* style for the div after the file uploaded
+*/
+.CompareFiles{
+  text-align: center;
+  justify-content: center;
+}
+
+/*
+* style for the compare description text
+*/
+#Comparison-Description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  width: 60%;
+}
+/*
+* style for the instructions at the top 
+*/
+.instruction-text {
+  display: none;
+  position: absolute;
+  margin-top: 10%;
+  top: 5%;
+  right: 0;
+  max-width: 15%;
+  max-height: 24%;
+  flex: 1;
+  border: 1px solid #3b3b3b;
+  border-style: inset;
+  border-radius: 10px;
+}
+
+
+/*
+* Style for the answers container-
+* which wil contain both userAnswersContainers
+*/
+.answersContainer{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  max-width:  90%;
+  margin-top: 2%;
+  border-radius: 5%;
+  margin-left: 4%;
+  font-size:large;
+}
+
+/*
+* style for both user userAnswers
+* each box has its own color
+*/
+#userAnswersContainer1{
+  display: none;
+  width: 45%;
+  height: fit-content;
+  background-color: rgb(49, 150, 179);
+  margin-bottom: 20px;
+  margin-right: 2%;
+  margin: 3%;
+}
+#userAnswersContainer2{
+  display: none;
+  width: 45%;
+  height: fit-content;
+  background-color: rgb(255, 218, 131);
+  margin-bottom: 20px;
+  margin-left: 2%;
+  margin: 3%;
+
+}
+
+/*
+* Style for chart and the canvas
+*/
+.chart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom:2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+canvas {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/*
+* Buttons styling
+*/ 
+button{
+  background-color: rgb(10, 105, 23);
+  color: rgb(255, 255, 255);
+  border: 0;
+  width: auto;
+  padding: 8px;
+  border-radius: 10%;
+  margin-bottom: 3%;
+}
+button:hover{
+  background-color: rgb(17, 170, 38);
+}
+
+
+/*
+* logo image in navbar styling 
+*/
+.logo-img{
+  margin-top: 15%; 
+  max-height: 40px; 
+  max-width: 50px;
+}
+
+
+/*
+* Custom styling for the small screens
+*/
+@media (max-width: 768px) {
+  body{
+    font-size: 1.5rem;
+  }
+
+  .chart {
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+
+    max-width: 500px;
+    max-height: 450px;
+    width: 410px;
+  }
+
+  .CompareFiles{
+    width: 90%;
+    font-size: 1.3rem;
+ } 
+  #Comparison-Description {
+    margin: 0;
+    width: 100%;
+}
+
+ .instruction-text {
+    display: block;
+    position: relative;
+    max-width:fit-content;
+    max-height:fit-content;
+    margin: 0;
+}
+
+ .answersContainer {
+   flex-direction: column;
+}
+
+  #userAnswersContainer1, #userAnswersContainer2 {
+    width: 100%;
+    margin: 0;
+    font-size: 1.3rem;
+}
+  
+  .logo-img{
+    max-height: 45px; 
+    max-width: 55px;
+    margin-top: 1%; 
+    margin-left: 15%; 
+  }
+
+}

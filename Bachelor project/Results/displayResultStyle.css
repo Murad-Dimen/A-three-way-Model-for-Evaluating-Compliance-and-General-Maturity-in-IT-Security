@@ -1,0 +1,227 @@
+/* 
+* body style: centralize the content of the body-
+* adding background color, and the text color.
+*/ 
+body {
+    background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(194, 194, 194));
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    font-size:large;
+  }
+
+/* 
+* adding custom color and styling to the nav- 
+* to match our page style
+*/ 
+.navbar {
+    background-color: #0c0c0f;
+    margin-bottom: 0;
+    border-radius: 0;
+    font-size: medium;
+  }
+.navbar-brand{
+    padding-right: 50px;
+  }
+
+
+/*
+* style for the file uploading input and text
+*/
+.file-Upload{
+  margin: auto;
+  padding: 8px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  width: 50%;
+}
+
+#file{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+  }
+  
+/*
+* p in the page get large fot size
+*/
+p{
+  font-size:large;
+}
+
+/*
+* style for the entire page content
+*/
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+/*
+* style for the instructions at the top 
+*/
+.instruction-text{
+  border: 1px solid #3b3b3b;
+  text-align: start; 
+  justify-content: center; 
+  position: absolute;
+  top: 10%;
+  right: 2%;
+  max-width: 15%;
+  max-height: 24%;
+}
+
+
+/*
+* charts div styling 
+*/
+.charts{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  max-height: 40%;
+  max-width: 80%;
+}
+
+/*
+* style for each chart
+*/
+.bar-chart {
+  max-height: 20%;
+  max-width: 70%;
+  width: 60%;
+  height: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.donut-chart {
+  max-width: 50%;
+  width: 50%;
+  height: 50%;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+
+/*
+* Style for the answers the will
+* show when user clicks on bar chart
+*/
+.answersContainer{
+  display: block;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width:  45%;
+  background-color: rgb(190, 189, 188);
+  margin-top: 2%;
+  margin-left: 8%;
+  border-radius: 5%;
+}
+
+/*
+* Text and button syling under the charts
+*/
+.compare-TextButton{
+  margin: auto;
+  margin-top: 6%;
+  width: 50%;
+  padding: 10px;
+}
+
+/*
+* Buttons styling
+*/
+button{
+  background-color: rgb(10, 105, 23);
+  color: rgb(255, 255, 255);
+  border: 0;
+  width: auto;
+  padding: 8px;
+  border-radius: 10%;
+  margin-bottom: 3%;
+  font-size: large;
+}
+button:hover{
+  background-color: rgb(17, 170, 38);
+}
+
+
+/*
+* logo image in navbar styling 
+*/
+.logo-img{
+    margin-top: 15%; 
+    max-height: 40px; 
+    max-width: 50px;
+  }
+
+
+/*
+* Custom styling for the small screens
+*/
+@media (max-width: 768px) {
+  body, p, button{
+    font-size:  1.5rem;
+  }
+
+  .instruction-text {
+    display: block;
+    position: relative;
+    max-width:fit-content;
+    max-height:fit-content;
+    margin: 0;
+    margin-left: 5px;
+   
+  }
+
+  .file-Upload,.compare-TextButton{
+      width: 80%;
+    }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .answersContainer{
+    max-width: 100%;
+    margin: 0;
+  }
+  
+  .charts {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2%;
+    width: 80%;
+  }
+
+  .bar-chart {
+    max-width: 500px;
+    max-height: 400px;
+    width: 500px;
+  }
+
+  .donut-chart {
+    max-width: 500px;
+    max-height: 500px;
+  }
+  
+
+  .logo-img{
+    max-height: 45px; 
+    max-width: 55px;
+    margin-top: 1%; 
+    margin-left: 15%; 
+  }
+}
+  

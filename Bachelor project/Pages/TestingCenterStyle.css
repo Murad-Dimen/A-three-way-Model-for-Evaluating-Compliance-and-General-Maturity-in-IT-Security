@@ -1,0 +1,149 @@
+/* 
+* body style: centralize the content of the body-
+* adding background color, and the text color.
+*/ 
+body{
+    background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(194, 194, 194));
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+  }
+  
+/* 
+* adding custom color and styling to the nav- 
+* to match our page style
+*/  
+.navbar {
+  background-color: #0c0c0f;
+  margin-bottom: 0;
+  border-radius: 0;
+  font-size: medium;
+
+}
+
+.navbar-brand{
+  padding-right: 50px;
+}
+
+/*
+* style for p in the page
+*/
+p{
+    font-size: large;
+    padding: 1%;
+}
+
+/*
+* style for the description text-
+* at the top of the page
+*/
+.description-text {
+    max-width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+/*
+* style for h1 in the description-text
+*/
+.description-text>h1{
+  font-weight: bold;
+}
+
+/*
+* style for the containers in the page
+*/
+.grid-containers {
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+/*
+* style for each container in the page
+*/
+.containers {
+  background-color: #363636;
+  color: #ffffff;
+  border-radius: 3%;
+  width: 480px;
+  height: fit-content;
+  padding: 1%;
+  margin: 2%;
+}
+/*
+* style for each containers title
+*/
+.container-title{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:4ch;
+  margin: 3%;
+  padding: 1%;
+}
+
+/*
+* style for each containers text
+*/ 
+.container-text{
+  width: fit-content;
+  height:440px;
+  margin: 1%;
+  margin-bottom: 4%;
+  line-height: 1.5;
+}
+
+/*
+* Buttons styling beside the bootstrap
+*/ 
+.btn{
+  margin-top: 10%;
+  font-size: medium;
+  font-weight: bold;
+}
+
+
+/*
+* logo image in navbar styling 
+*/
+.logo-img{
+  margin-top: 15%; 
+  max-height: 40px; 
+  max-width: 50px;
+}
+
+
+
+/*
+* Custom styling for the small screens
+*/
+@media (max-width: 768px) {
+  .grid-containers {
+    flex-direction: column;
+  }
+
+  .containers,.description-text{
+    max-width: 95%;
+  }
+
+  .btn{
+    margin-bottom: 10%;
+  }
+
+  .container-text{
+    max-width: fit-content;
+    height:fit-content;
+    margin-bottom: 4%;
+  }
+
+
+  .logo-img{
+    max-height: 45px; 
+    max-width: 55px;
+    margin-top: 1%; 
+    margin-left: 15%; 
+  }
+}
+  
+  

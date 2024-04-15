@@ -1,0 +1,213 @@
+/* 
+* body style: centralize the content of the body-
+* adding background color, and the text color.
+*/ 
+body{
+    background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(194, 194, 194));
+    color: #000000;
+    text-align: center;
+    justify-content: center;    
+    font-size: medium;
+  }
+
+/* 
+* adding custom color and styling to the nav- 
+* to match our page style
+*/ 
+.navbar {
+  background-color: #0c0c0f;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.navbar-brand{
+  padding-right: 50px;
+}
+
+/*
+* style for the buttons input in the page
+*/
+button, input {
+  color: #000000;
+}
+
+/*
+* style for the dashboard
+*/
+.dashboard {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  max-height: 90%;
+  width: 60%;
+  height: 650px;
+  background-color: #0c0c0f;
+  box-shadow: #0c0c0f;
+  margin: auto;
+  margin-top: 4%;
+  overflow: auto;
+}
+
+/*
+* style for the controls
+*/
+.controls {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+  background-color: #0c0c0f;
+  padding: 10px;
+}
+
+/*
+* style for the buttons and p in controls
+*/
+.controls>button,p{
+  padding: 20px;
+  margin: 5%;
+  margin-bottom: 1%;
+}
+
+/*
+* style for the content list
+*/
+.contentList{
+  border-left: 6px solid #EEE; 
+  height: auto; 
+  width: auto; 
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/*
+* style for the form
+*/
+form{
+  padding-left: 5%;
+  height:auto; 
+  width:90%; 
+}
+
+/*
+* style for the table
+*/
+table {
+  font-size: medium;
+  width: 100%;
+  margin-top: 5%;
+}
+
+/*
+* style for the tables th and td 
+*/
+th, td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*
+* style for the tables th only
+*/
+th{
+  font-weight: bolder;
+  font-size: larger;
+  background-color: #272727;
+}
+
+/*
+* style for the arrow down 
+*/
+.arrowDown{display: none;}
+
+
+/*
+* logo image in navbar styling 
+*/
+.logo-img {
+  margin-top: 15%; 
+  max-height: 40px; 
+  max-width: 50px;
+}
+
+
+/*
+* Custom styling for the small screens
+*/
+@media (max-width: 768px) {
+  .dashboard {
+    width: 100%;
+    height: fit-content;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .arrowDown {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin: 10px;
+    padding: 20px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #35ebe2;
+    z-index: 2; 
+  }
+
+
+  .logo-img {
+    max-height: 45px; 
+    max-width: 55px;
+    margin-top: 1%; 
+    margin-left: 15%; 
+  }
+
+  .contentList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    border-left:0; 
+    width: 100%;
+    max-height: fit-content;
+    height: fit-content;
+    z-index: 4;
+    overflow:auto;
+  }
+
+  .controls, .dashboard {
+    font-size: medium;
+    
+  }
+  p{
+    display: none;
+  }
+
+  .controls {
+    display: none;
+    text-align: center;
+  }
+
+
+  table {
+    font-size: small;
+    width: auto;
+    height: fit-content;
+    margin-top: 1%;
+    
+  }
+
+  th, td {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: none;
+  }
+
+  th {
+    font-size: medium;
+    background-color: #272727;
+  }
+
+}

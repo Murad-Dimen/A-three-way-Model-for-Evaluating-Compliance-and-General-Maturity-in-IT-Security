@@ -1,0 +1,515 @@
+[
+    
+    { 
+     "section": "A.5 Information security policies", 
+     "sectionDescription": "Annex 5 is about the management role in information security, primarily in procedures.", 
+     "questionsList": 
+     [
+     {
+        "q":"1. Does the company have a set of security policies that is defined and approved by management?"
+     },
+     {
+        
+        "q":"2. Does the company review the policies when major changes occur in the company?"
+     }
+    ]
+    },
+
+    { 
+     "section": "A.6 Organization of information security",  
+     "sectionDescription": "", 
+     "questionsList": 
+     [
+     {
+        "TipsTitle":"A.6.1 Internal organization:",
+        "Tips":"Annex 6.1 is about the framework the organization has regarding information security as well as the controls within.  It has how you would interact with governing bodies as well as special interest groups.", 
+        "q":"3. Are all roles within the organization within information security defined and distributed?"
+    },
+     {
+        "q":"4. Are conflicting duties and areas of responsibility segregated in order to avoid any unauthorized or unintentional modifications to data?"
+    },
+    {
+        "q":"5. Would you describe the company to have a well-functioning relationship with the relevant authorities?"
+    },
+    {
+        "q":"6. Have you established a bilateral relationship with other specialized groups or professional associations, which can be beneficial for the company?"
+    },
+    {
+        "q":"7. Does the company make sure to apply the security policies within all sectors or projects the company is involved in?"
+    },
+    {
+        "TipsTitle":"A.6.2 Mobile devices and teleworking",
+        "Tips":"Annex 6.2 is policies surrounding teleworking how it will be done as well as mobile device policies.",
+        "q":"8. Do you have a policy supporting security measures to manage risk associated with mobile devices? "
+    },
+     {
+        "q":"9. Does the company have a specific policy or security measures to protect information accessed, processed or stored at teleworking sites?"
+    }
+    ]
+    },
+    { 
+     "section": "A.7 Human resource security ",   
+     "sectionDescription": "Annex 7 is about human resource policy prior to, during and after employment. It also includes the organizations policy regarding external contractors and the level of access they have to the organizations systems. ", 
+     "questionsList":
+     [
+     {
+        "TipsTitle":"A.7.1 Prior to employment",
+        "Tips":"Annex 7.1 is about the organizations procedures prior to employment or hiring of external contractors. Education in the organizations procedures and their responsibility before they get access to system resources.",
+        "q":"10. Do you perform background verification checks based on relevant laws, regulations or company values/requirements?"
+    },
+     {
+        "q":"11. Does the contractual agreement between the company and the employee include the responsibilities regarding information security for both parties?"
+    },
+    {
+        "TipsTitle":"A.7.2 During employment ",
+        "Tips":"Annex 7.2 is during employment; the responsibility contractors and employees have during employment. ",
+        "q":"12. Do all employees and contractors apply information security in accordance with the organization's established policies and procedures?"
+    },
+     {
+        "q":"13. Do all employees receive information security training in accordance with company policies?"
+    },
+    {
+       "q":"14. Do you have a formal and communicated disciplinary process for employees or partners that have broken the organization information security requirements?"
+    },
+    {
+        "TipsTitle":"A.7.3 Termination and change of employment",
+        "Tips":"Annex 7.3 is about policies after employment, are accounts removed from areas with restricted information and so on.",
+        "q":"15. Do you make sure any information security responsibilities that a former employee of the company has are specifically defined and enforced?"
+    }
+    ]
+    },
+    { 
+     "section": "A.8 Asset management ",   
+     "sectionDescription": "", 
+     "questionsList":
+     [
+     {
+        "TipsTitle":"A.8.1 Responsibility for assets",
+        "Tips":"Annex 8.1 is about asset management and responsibility. The goal here is therefore to identify how assets are placed within the management system and what protection they require.",
+        "q":"16. Do you have an inventory of assets that either process or handles information? If so, is this inventory up to date? "
+    },
+    {
+        "q":"17. Are the assets maintained by the organization also owned by you?"
+    },
+    {
+        "q":"18. Are the accepted uses of the company's assets within information processing and handling written down and documented? Are the rules implemented and enforced? "
+    },
+    {
+        "q":"19. Do contractors and employees return the organization's assets when their employment ends? Is this in the agreement between the organization and 3rd party?"
+    },
+    {
+        "TipsTitle":"A.8.2 Information classification",
+        "Tips":"Annex 8.1 is about information classification and what protection information should have.",
+        "q":"20. Is the information managed by the company sorted and classified based on different properties? For example, to what criticality, legal requirements or value does the information have?"
+    },
+    {
+        "q":"21. Does the organization have a set of procedures for information labeling in place, in accordance with the information classification scheme adopted?"
+    },
+    {
+        "q":"22. Does the organization have set procedures within the organization's information classification scheme regarding how assets shall be handled, and are these procedures implemented? "
+    },
+    {
+        "TipsTitle":"A.8.3 Media handling",
+        "Tips":"Annex 8.1 is about how the organization has contact with the media.",
+        "q":"23. Does the organization have set procedures to make sure removable media is transferred and managed in a safe way?"
+    },
+    {
+        "q":"24. Does the organization have any set procedures to ensure media is securely disposed of?"
+    },
+    {
+        "q":"25. Have you implemented measures to prevent unauthorized access, misuse, or corruption of media during transfer?"
+    }
+    ]
+    },
+    { 
+     "section": "A.9 Access control",   
+     "sectionDescription": "", 
+     "questionsList":
+     [
+     {
+        "TipsTitle":"A.9.1 Business requirements of access control ",
+        "Tips":"Annex 9.1 is about who has access to restricted resources. As such it includes who will have access to information and information processing facilities.",
+        "q":"26. Do you have an established, documented, and reviewed policy regarding access control?"
+    },
+    {
+        "q":"27. Do users ONLY have access to network resources and services they have been authorized specifically to use? "
+    },
+    {
+        "TipsTitle":"A.9.2 User access management",
+        "Tips":"Annex 9.2 is about user access management. Its about what resources each users should have available as well as what they should not have access to.",
+        "q":"28. Do you have an established process for registering and removing users so access rights can be assigned?"
+    },
+    {
+        "q":"29. Is a formal user access provisioning process established?"
+    },
+    {
+        "q":"30. Is the ability to allocate privileged access rights restricted and controlled? "
+    },
+    {
+        "q":"31. Is the allocation and control of secret authentication information restricted and controlled?"
+    },
+    {
+        "q":"32. Do asset owners review access rights at regular intervals? "
+    },
+    {
+        "q":"33. By termination or end of contract are user access to information and information processing facilities removed?"
+    },
+    {
+        "TipsTitle":"A.9.3 User responsibilities ",
+        "Tips":"Annex 9.2 is about what responsibilities the users have and if they know they are accountable.",
+        "q":"34. Do all users follow the organization's practices regarding the use of secret authentication information?"
+    },
+    {
+        "TipsTitle":"A.9.4 System and application access control",
+        "Tips":"Annex 9.2 is about system and application access control. The goal is to prevent users to not get unauthorized access to systems and applications.",
+        "q":"35. Is information restricted in accordance with the access control policy?"
+    },
+    {
+        "q":"36. Is access to systems and applications controlled by a secure log-on procedure?"
+    },
+    {
+        "q":"37. Do you have an interactive passage management system that ensures passwords are high quality?"
+    },
+    {
+        "q":"38. Is the use of utility software that can overwrite the system restricted and controlled tightly?"
+    },
+    {
+        "q":"39. Is software source code access restricted?"
+    }
+    
+    ]
+    },
+    { 
+     "section": "A.10 Cryptography ",   
+     "sectionDescription": "Is about cryptographic controls and to ensure high quality that maintains the integrity, confidentiality and authenticity of the information", 
+     "questionsList":
+     [
+     {
+        "TipsTitle":"A.10.1 Cryptographic controls",
+        "Tips":"",
+        "q":"40. Do you have a policy regarding the use of cryptographic controls for protection of information developed and implemented? "
+    },
+    {
+        "q":"41. Does the organization have a policy regarding the use and management of cryptographic keys?"
+    }
+    ]
+    },
+    { 
+     "section": "A.11 Physical and environmental security",   
+     "sectionDescription": "", 
+     "questionsList":
+     [
+     {
+        "TipsTitle":"A.11.1 Secure areas",
+        "Tips":"Annex 11.1 is about physical and environmental security. Primarily about physical access controls to areas where restricted resources are contained.",
+        "q":"42. Has the organization established control measures within the defined security perimeters to ensure the protection of sensitive or critical information and information processing facilities?"
+    },
+    {
+        "q":"43. Have you implemented proper entry controls in secured areas? "
+    },
+    {
+        "q":"44. Have access control procedures been put in place to secure restricted areas such as (offices, rooms, and facilities)?  "
+    },
+    {
+        "q":"45. Are there protection measures in place to safeguard you against natural disasters, malicious attacks, and accidents?   "
+    },
+    {
+        "q":"46. Do you have procedures for working in secure areas designed and applied? "
+    },
+    {
+        "q":"47. Does the organization have procedures for controlling and isolating specific access points?"
+    },
+    {
+        "TipsTitle":"A.11.2 Equipment",
+        "Tips":"Annex 11.2 is about security of equipment.",
+        "q":"48. Does your equipment have proper placement and protection against risks and opportunities of unauthorized access? "
+    },
+    {
+        "q":"49. Do you have procedures in place to protect the equipment, if there are power outages or failures in supporting utilities? "
+    },
+    {
+        "q":"50. Are the power and telecommunications cables protected from intrusion, disruption, or damage? "
+    },
+    {
+        "q":"51. Do you perform periodic maintenance of the equipment to keep it in good working condition and to ensure its availability and integrity?"
+    },
+    {
+        "q":"52. Do you have (Prior authorization) protocols in place regarding the removal of assets such as equipment, information, or software?"
+    },
+    {
+        "q":"53. Have security measures been implemented for off-site assets?"
+    },
+    {
+        "q":"54. Have you verified that all equipment containing storage media has been cleared of sensitive data and software licenses before disposal or reuse? "
+    },
+    {
+        "q":"55. Do you have appropriate protection for your unattended equipment?"
+    },
+    {
+        "q":"56. Does your organization have a clear desk policy for papers and removable storage media?"
+    }
+    ]
+    },
+    { 
+     "section": "A.12 Operations security ",   
+     "sectionDescription": "", 
+     "questionsList":
+     [
+     {
+        "TipsTitle":"A.12.1 Operational procedures and responsibilities ",
+        "Tips":"Annex 12.1 is about ensuring that information processing facilities operate in a safe and correct manner.",
+        "q":"57. Is the operating procedure available and documented to all users who need it? "
+    },
+    {
+        "q":"58. Does your organization have a control policy in place to review and approve changes such as changes to the information processing facilities and systems that affect information security? "
+    },
+    {
+        "q":"59. Have you implemented any procedures to monitor and control resource usage in your system to ensure required system performance in the future? "
+    },
+    {
+        "q":"60. Do you have any security procedures to separate the development, testing, and operational environments, in order to mitigate the risk of unauthorized access or modifications? "
+    },
+    {
+        "TipsTitle":"A.12.2 Protection from malware ",
+        "Tips":"Annex 12.2 is about ensuring that information and information processing facilities are protected from malware.",
+        "q":"61. Have you established a robust control framework for detecting and preventing malware in your system, including recovery measures in case of an attack? "
+    },
+    {
+        "TipsTitle":"A.12.3 Backup  ",
+        "Tips":"Annex 12.3 is about preventing data loss.",
+        "q":"62. Do you have a backup policy in place for regularly taking backup copies of your information, software, and system images? "
+    },
+    {
+        "TipsTitle":"A.12.4 Logging and monitoring ",
+        "Tips":"Annex 12.4 is about recording events and generating eventual evidence for later.",
+        "q":"63. Is your system regularly creating and keeping event logs of user activities, exceptions, faults, and information security events? "
+    },
+    {
+        "q":"64. Have you established procedures for ensuring the integrity of log information and protecting it from unauthorized access? "
+    },
+    {
+        "q":"65. Are the logs of system administrator and system operator activities logged, protected, and regularly reviewed for any security incidents? "
+    },
+    {
+        "q":"66. Are the clocks of all systems within your organization or security domain synchronized and set to a single reference time source? "
+    },
+    {
+        "TipsTitle":"A.12.5 Control of operational software ",
+        "Tips":"Annex 12.5 is about Controlling and ensuring the integrity of the operating system. ",
+        "q":"67. Is there a procedure in place to manage the installation of software on your operational systems? "
+    },
+    {
+        "TipsTitle":"A.12.6 Technical vulnerability management  ",
+        "Tips":"Annex 12.6 is about avoiding any technical vulnerabilities get exploited.",
+        "q":"68. Are you evaluating your organization's vulnerabilities and taking steps to address technical vulnerabilities of your information systems in a proactive manner? "
+    },
+    {
+        "q":"69. Do you have clear security procedures in place for users to follow when installing software on their devices? "
+    },
+    {
+        "TipsTitle":"A.12.7 Information systems audit considerations",
+        "Tips":"Annex 12.7 is about any required audit activities that should affect any normal operations as little as possible.",
+        "q":"70. Do you have a plan for audit requirements and activities that involve the verification of operational systems? "
+    }
+    ]
+    },
+    { 
+     "section": "A.13 Communications Security",   
+     "sectionDescription": "", 
+     "questionsList":
+     [
+     {
+        "TipsTitle":"A.13.1 Network security management",
+        "Tips":"Annex 13.1 is about making sure the networks and other supporting information processing facilities are protected.",
+        "q":"71. Do you implement procedures to manage and control the network to protect the information?"
+    },
+    {
+        "q":"72. Is the security of network services considered in the network services agreement?"
+    },
+    {
+        "q":"73. Does the network offer a segregation function to separate the information services, users, and information systems on the network? "
+    },
+    {
+        "TipsTitle":"A.13.2 Information transfer ",
+        "Tips":"Annex 13.2 is about making sure information within the organization or with any external entity travel securely with set procedures.",
+        "q":"74. Do you have formal policies for transferring information through various communication methods?"
+    },
+    {
+        "q":"75. Have you established agreements to secure the transfer of business information between the organization and external parties?"
+    },
+    {
+        "q":"76. Are there any controls in place to ensure the security of electronic messaging information?"
+    },
+    {
+        "q":"77. Have you identified and documented the requirements for confidentiality or non-disclosure agreements to protect sensitive information? "
+    }
+    ]
+    },
+    { 
+     "section": "A.14 System acquisition, development, and maintenance ",   
+     "sectionDescription": "", 
+     "questionsList":
+     [
+     {
+        "TipsTitle":"A.14.1 Security requirements of information systems",
+        "Tips":"Annex 14.1 is about the requirements of the information systems in the organization, and that information security is properly implemented in these systems. This also includes requirements for the information systems which provide services over public networks.",
+        "q":"78. Do you consider the security requirements of new or existing information systems when designing or enhancing them?"
+    },
+    {
+        "q":"79. Are there measures in place to protect the information transmitted through public networks in application services from unauthorized disclosure or modification? "
+    },
+    {
+        "q":"80. Does the organization have policies and procedures in place to secure the information involved in application service transactions?"
+    },
+    {
+        "TipsTitle":"A.14.2 Security in development and support processes",
+        "Tips":"Annex 14.2 is about making sure that information security should be designed and implanted already at the beginning of the development of information systems.",
+        "q":"81. Does the organization have established rules for the development of software and systems?"
+    },
+    {
+        "q":"82. Does the organization have a formal change control procedure in place for systems within the development lifecycle?"
+    },
+    {
+        "q":"83. Do you have a process in place for conducting technical reviews of applications after operating platform changes?"
+    },
+    {
+        "q":"84. Are all modifications to software packages strictly controlled and limited to necessary changes?"
+    },
+    {
+        "q":"85. Have your secure system engineering principles in the organization been established and documented for the implementation of information systems?"
+    },
+    {
+        "q":"86. Does the organization have a secure development environment in place to cover the entire system development lifecycle? "
+    },
+    {
+        "q":"87. Are there any specific measures in place to monitor the outsourced development activity?"
+    },
+    {
+        "q":"88. Do you carry out testing of security functionality during development?"
+    },
+    {
+        "q":"89. Does the organization have established acceptance testing programs and criteria for new information systems, upgrades, and new versions?"
+    },
+    {
+        "TipsTitle":"A.14.3 Test data ",
+        "Tips":"",
+        "q":"90. Do you have any measures in place to protect the data used for testing? "
+    }
+    ]
+    },
+    { 
+     "section": "A.15 Supplier relationships",   
+     "sectionDescription": "", 
+     "questionsList":
+     [
+     {
+        "TipsTitle":"A.15.1 Information security in supplier relationships ",
+        "Tips":"Annex 15.1 is about protecting any valuable assets that belong to the organization and reducing any risk related to the use of suppliers or partners.",
+        "q":"91. Do you have a segregated system so suppliers do not have access to any of your data?"
+    },
+    {
+        "q":"92. Is this agreement between the organizations documented with an SLA agreeing with the requirements set up by the organization?"
+    },
+    {
+        "q":"93. Have you made formal agreements with your suppliers, so they are aware of the security risks associated with IT services and product supply chain?"
+    },
+    {
+        "TipsTitle":"A.15.2 Supplier service delivery management",
+        "Tips":"Annex 15.2 is about making sure also the suppliers of the organization maintain and deliver efficient and secure information security and service.",
+        "q":"94. Do you perform regular monitoring or audits of your supplier services?"
+    },
+    {
+        "q":"95. When a supplier makes changes to their security policies does the organization make a re-evaluation of risk when working with the supplier? Is the supplier able to influence the organization?"
+    }
+    ]
+    },
+    { 
+     "section": "A.16 Information Security incident management",   
+     "sectionDescription": "", 
+     "questionsList":
+     [
+     {
+        "TipsTitle":"A.16.1 Management of information security incidents and improvements",
+        "Tips":"Annex 16.1 is about making sure the organization has a consistent and effective approach to handling information security incidents. All the employees should know their role in case of an incident, and the security systems should respond to and log all incidents.",
+        "q":"96. Is responsibility regarding information security incidents spread out before an event occurs?"
+    },
+    {
+        "q":"97. Do employees and suppliers know they are obligated to report information security incidents through the right channels established by the organization? Is this covered under the training of employees?"
+    },
+    {
+        "q":"98. Does the employees or contractors that are using the company's information systems and services know how to identify and report any security weaknesses?"
+    },
+    {
+        "q":"99. Does your security team know how to review and identify security incidents?"
+    },
+    {
+        "q":"100. Do you have a set response when security incidents occur, and what information security framework is this response based on?"
+    },
+    {
+        "q":"101. Do you use and analyze data from security incidents that have happened, and use this data to reduce likelihood of breaches occurring in the future?"
+    },
+    {
+        "q":"102. Do you have procedures for identifying and preserving information that can be used as evidence for a data breach?"
+    }
+    ]
+    },
+    { 
+     "section": "A.17 Information security aspects of business continuity management ",   
+     "sectionDescription": "", 
+     "questionsList":
+     [
+     {
+        "TipsTitle":"A.17.1 Information security continuity ",
+        "Tips":"Annex 17.1 is about making sure information security continuity is established and followed within the organization, even during unexpected events.",
+        "q":"103. Do you have a list of requirements within information security the company needs to comply with even in a crisis or other challenging situations?"
+    },
+    {
+        "q":"104.  Do you have a robust and flexible information security system that documents and maintains procedures and controls in the same way in adverse situations as when the company is under normal operation?"
+    },
+    {
+        "q":"105. Does the organization regularly verify the established information security protocols to make sure they are valid and effective during adverse situations?"
+    },
+    {
+        "TipsTitle":"A.17.2 Redundancies",
+        "Tips":"Annex 17.1 is about making sure information processing facilities are implemented.",
+        "q":"106. Do you have dedicated information processing facilities to meet availability requirements?"
+    }
+    ]
+    },
+    { 
+     "section": "A.18 Compliance",   
+     "sectionDescription": "", 
+     "questionsList":
+     [
+     {
+        "TipsTitle":"A.18.1 Compliance with legal and contractual requirements ",
+        "Tips":"Annex 18.1 is about having sufficient compliance with legal and contractual requirements. The goal is to prevent violations of any legal, regulatory, statutory, or contractual responsibilities related to information security.",
+        "q":"107. Does the organization make sure all relevant legislative statutory, regulatory and contractual requirements and the organizations approach to meet these requirements is regularly documented and updated for both the information systems and the organization?"
+    },
+    {
+        "q":"108. Has the company implemented procedures to make sure they are compliant with legislative, regulatory and contractual requirements related to intellectual property rights and use of the proprietary software products?"
+    },
+    {
+        "q":"109. Do you make sure that records and data are protected from loss, destruction, falsification, unauthorized access, and unauthorized release, according to all legislations, regulatory contractual, and business requirements?"
+    },
+    {
+        "q":"110. Has the company made sure to secure protect personally identifiable information according to relevant legislation and regulation?"
+    },
+    {
+        "q":"111. Does the company use cryptographic controls where possible and in compliance with agreements and regulations? "
+    },
+    {
+        "TipsTitle":"A.18.2 Information security reviews",
+        "Tips":"Annex 18.1 is about making sure that information security is being implemented correctly in line with organizational policies and procedures.",
+        "q":"112. Does the company perform independent audits of their information security regularly or when significant changes have occurred?"
+    },
+    {
+        "q":"113.  Does the responsible IT- managers regularly review the compliance of information processing within the appropriate security policies, standards and other security requirements?"
+    },
+    {
+        "q":"114. Does the IT- systems regularly get checked that it complies with the organization's information security policies and standards?"
+    }
+    ]
+    }
+
+]

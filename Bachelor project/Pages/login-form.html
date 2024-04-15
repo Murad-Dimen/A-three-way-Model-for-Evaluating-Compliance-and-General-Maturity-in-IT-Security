@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  type="image/x-icon" href="../images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="login-style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    
+  <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a href="../index.php" >
+            <img class="logo-img" src="../Images/logo.png" alt="Card image">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="../Pages/TestingCenter.php">Testing Center</a></li>
+            <li><a href="../Pages/about.php">About</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="../Pages/login-form.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!--The home page content-->
+  <div class="login-page">
+        <div class="login-des">
+          <div><img class="page-logo" src="../Images/logoB.png" alt="Card image"></div>
+            <h1>Welcome to CyberTest4You</h1>
+              <p>
+                We are glad to have you here. To access our site, you will need an account. 
+                If you are already a registered user, please enter your login information.
+              </p>
+              <p>
+                If you are not, simply contact your organization's administrator or our team 
+                via the information provided on the <a href="../Pages/about.php"><b>About</b></a> page to request an account. Our team 
+                will review your request and send you your login credentials as soon as possible.
+              </p>
+              <p>
+                Thank you for choosing our site. We hope you enjoy your experience here. 
+                If you have any questions or concerns, feel free to reach out to our team for assistance.
+              </p>
+        </div>
+        <!--Div for the login box-->
+        <div class="login-box">
+            <form name="f1" action="../Authentication/authentication.php" onsubmit = "return validation()" method="post">
+                <h2 class="formTitle">Login Form</h2>
+                <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
+                <div class="form-group"><input class="form-control" type="email" id="email" name="email" placeholder="Email"></div>
+                <div class="form-group"><input class="form-control" type="password" id="password" name="password" placeholder="Password"></div>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Log In</button></div>
+              </form>
+        </div>
+    </div>
+
+
+
+    <script>  
+      /*
+      * A simple function to check whether the user has provided the- 
+      * data in the inputs and alert them if they are missing data to provide
+      */
+      function validation()  
+      {  
+          var id=document.f1.email.value;  
+          var ps=document.f1.password.value;  
+          if(id.length=="" && ps.length=="") {  
+              alert("email and Password fields are empty");  
+              return false;  
+          }  
+          else  
+          {  
+              if(id.length=="") {  
+                  alert("email is empty");  
+                  return false;  
+              }   
+              if (ps.length=="") {  
+              alert("Password field is empty");  
+              return false;  
+              }  
+          }                             
+      }  
+  </script>   
+    
+</body>
+</html>

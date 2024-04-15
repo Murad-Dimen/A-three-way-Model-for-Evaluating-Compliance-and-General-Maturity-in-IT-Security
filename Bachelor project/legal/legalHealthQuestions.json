@@ -1,0 +1,837 @@
+[ 
+    {
+     "section": "1", 
+     "sectionDescription": "", 
+     "questionsList": 
+     [
+        {
+            "questionTitle":  "",
+            "q" : "Are all security measures suitable and chosen on the basis of risk assessments?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Does the organisation assess whether it is necessary to implement more comprehensive measures than those described in the Code?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Do all employees in the organisation undergo continuous training regarding the requirement to fulfil the duty of confidentiality, information security and data protection?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Does the organisation obtain a confidentiality agreement for each employee?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Has the organisation guidelines for the private use of information systems and equipment?  "
+     },
+     {
+        "questionTitle": "",
+        "q" : "Has the organisation established measures which ensure that everyone who is given access to information systems and related information possesses sufficient competence to use the systems and to safeguard information security and data protection regarding data subjects?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Is the training continuous and adapted to the various roles and user groups concerned?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Are new training initiatives considered in the event of technological changes or change in procedures?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "In the event of termination of employment, is all media (including digital, paper, etc.) which may contain health and/or personal data returned?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Are access cards returned and deactivated in the event of termination of employment?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Is all access blocked in the event of termination of employment?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Does the organisation have procedures in place for tidying up information which the employee may have stored in their own user account."
+     },
+     {
+        "questionTitle": "",
+        "q" : "Does the organisation have procedures for the authorisation, alteration and termination of access?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Within the framework of the duty of confidentiality, does the organisation ensure that relevant and necessary health data is available to health personnel and collaborating personnel as and when necessary in order to provide, administer or quality-assure the provision of healthcare to individuals?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Does the organisation ensure that the data is made available in a manner which addresses information security and data protection?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Has access control been established for all information systems?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Has access control been established for administrator and system users?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Has it been ensured that only authorised personnel with a professional need may gain access to personal health data and personal data?"
+     },
+     {
+        "questionTitle": "",
+        "q" : "Is access to personal health data filing systems for therapeutic purposes (including electronic patient records/data processing systems) granted following a specific decision based on the completed or planned implementation of measures for the medical treatment of the patient? "
+     },
+     {
+        "questionTitle": "",
+        "q" : "Is access controlled to ensure compliance with the confidentiality rules and so that no access to personal health data is given to anyone other than those with a professional need to gain such access?"
+     }
+     ]
+   },
+   {
+    "section": "2", 
+    "sectionDescription": "", 
+    "questionsList": 
+    [
+        {
+            "questionTitle" : "",
+            "q" : "Is the statutory duty of confidentiality assessed and safeguarded in connection with the allocation of authorisation?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Does allocated authorisation ensure that an individual employee is able to gain access to relevant personal health data as and when necessary in accordance with the employee’s responsibilities and duties, insofar as the statutory duty of confidentiality does not prevent such access?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Is the authorisation reviewed in the event of any changes in responsibilities, employment or long-term absence?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "If roles are used within an organisation, does authorisation have to be granted for each role, irrespective of the employee’s other roles?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Is authorisation for access to personal health data filing systems for therapeutic purposes time-limited?"
+        },
+        
+        {
+            "questionTitle" : "",
+            "q" : "Does authorisation for access to personal health data filing systems for therapeutic purposes specify which organisations the authorisation covers?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Have measures been established so that any misuse by authorised technical personnel with a specific need to access large quantities of personal health data will be detected?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Is the reason for self-authorisation recorded?"
+        },
+        {
+            "TipsTitle": "Tip",
+            "Tips" : "Examples of the requirement where PKI is not used: Password files should be encrypted",
+            "questionTitle" : "",
+            "q" : "Have technical measures been established to ensure that persons inside or outside the organisation are unable to alter data without the name of the person who made the change and what has been changed being logged in the information systems?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Is all allocation of authorisation recorded in an authorisation log?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Have technical measures been established to ensure that persons outside the organisation are unable to alter configurations and software without the changes being logged?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Does a user with administration rights use personal separate user accounts for administration tasks?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Do operating personnel have personal users for tasks which do not require administrator rights?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Have different administrator users been established for the various parts of the infrastructure that are managed?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Has a risk assessment been carried out which justifies the need for different administrator users?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Has the organisation ensured that an authorisation log is created which at least contains the following: •information on who has been allocated authorisation, •the role to which the authorisation has been allocated (if roles are used by the organisation, •purpose of the authorisation,•time at which the authorisation was given and revoked (where applicable), •information on the organisation to which the authorised person is linked, • authorisation of health personnel regarding access to health data in other organisations (only if access to health data in other organisations is in use)) ",
+            "TipsTitle" : "Examples",
+            "Tips": "It shall also be logged who (a physically identifiable person) created (logged) the authorization"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Does the organisation have control and oversight over the processing of personal health data and personal data for which they are responsible?  "
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Does the organisation have an overview of the release of data to other organisations?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Is a risk assessment carried out in the event of the new provision or changes to the existing disclosure of information to other organisations?"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Have controllers and organisations that are given access to data held by the controller clarified, through an agreement or otherwise, how:•authentication is to take place securely,  •authorisation for health data held by the controller is to be granted, •logging and follow-up of logs is to take place"
+        }
+    ]
+    },
+    {
+    "section": "3", 
+    "sectionDescription": "", 
+    "questionsList": 
+    [
+        {
+            "questionTitle": "",
+            "q" : "Do authorised persons verify their identity in a secure manner?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is the secure manner determined on the basis of a risk assessment?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are different employment relationships identified through authentication?  "
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is it ensured that several people cannot use the same authentication criteria?",
+            "TipsTitle" : "",
+            "Tips" : "Clarification of the requirement where PKI is not used: • It shall be easy for the user to change the password•Enforced password changes shall be technically possible •It shall be possible to configure the quality and duration of the password"
+            
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are authentication criteria (such as user name and password) allocated in an appropriate manner?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is access from home offices and/or mobile equipment (and mobile networks) secured through a secure authentication solution?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are all default passwords (factory settings) on systems and equipment changed before the processing of personal health data is commenced?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "When using wireless networks for processing personal health data, is the authorised user authenticated using a secure authentication solution?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is the individual role identified if roles are used? "
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is re-authentication approved if necessary when changing role (if roles are used)?"
+        },
+        {
+            "TipsTitle": "",
+            "Tips" : "Examples of the requirement: Personal health data filing system for therapeutic purposes must have functionality to ensure that the control can be carried out effectively.",
+            "questionTitle": "",
+            "q" : "Does the organisation's management ensure that regular checks are carried out to determine who has gained electronic access?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Do individual managers conduct reviews and checks on access management, including allocated authorisations?: •in the event of organisational changes, transfer of personnel to another unit/department or change in duties? •At least once a year (ideally in connection with security audits)?•In the event of a security breach within the information area that is affected by the breach?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is the organisation's management informed if checks lead to a suspicion that unauthorised access has taken place?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "If the checks reveal that unauthorised access has taken place, is this processed as a breaches?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is the misuse of self-authorisation followed up as a breaches?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "In the event of access being gained to health data across organisations, do the contractual parties collaborate regarding access management?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does a controller who has access to authorise health personnel for access between organisations continually monitor:who within his or her own organisation has electronically retrieved health data from another organisation ,why this was done, the period of time during which the health data was retrieved"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is the organisation from which the data was obtained and the patient/healthcare user that the data concerns notified if the checks indicate that an unauthorised person has retrieved health data?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is the patient/healthcare user notified by the organisation from which the data was obtained if the checks indicate that an unauthorised person has retrieved health data?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is the breaches (concerning the unauthorised retrieval of health data) processed in accordance with established procedures for breaches management?"
+        }
+    ]
+    }
+    ,
+    {
+    "section": "4", 
+    "sectionDescription": "", 
+    "questionsList": 
+    [
+        {
+            "questionTitle": "",
+            "q" : "Has a procedure been established for the administration of keys/access cards in the access management system?"
+        },
+        {
+            "TipsTitle": "",
+            "Tips": "This can be solved through access management to premises using equipment and through protecting the ICT equipment against misuse or unauthorised access.",
+            "questionTitle": "",
+            "q" : "Have security measures been established which prevent unauthorised access to personal health data?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Have security measures been established which ensure that only authorised personnel are able to gain access to such infrastructure?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are all storage media erased appropriately as and when they are taken out of use?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are risk assessments carried out concerning the solutions that are used for mobile equipment and home offices before the solutions are taken into use and in the event of changes that could impact on information security?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Have administrative procedures been established regarding the use of mobile equipment and home offices?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is personal health data only stored locally as and when necessary based on professional need and encrypted?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Have technical measures been established so that all communication of personal health data outside the control of the organisation is encrypted?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is encryption and decryption between communication points in the infrastructure performed by approved equipment over which the organisation has control? This control may be addressed through an agreement"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is all communication, whether wireless or wired, encrypted?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is stored directly identifiable personal data which is processed in accordance with Sections 10 and 11 of the Personal Health Data Filing System Act encrypted?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is medical equipment which processes personal health data covered by the organisation’s efforts relating to information security and data protection, e.g. in risk assessments, access control, change control and procedures regarding use, in the same way as other information systems?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the configuration ensure that the equipment and software only perform the functions that are specific to the intended purpose?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation ensure that all data flow, data communication and integrations are mapped and documented?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is it ensured that only approved equipment and software is used for the processing of personal health data?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Has the organisation stipulated who approves equipment and software that is used to process personal health data?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are hardware and software updated so that the latest and most modern security functionality is provided and necessary security measures are implemented?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Do scheduled changes follow the organisation’s procedure for configuration changes?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are separate environments used for development, testing and production, so that personal health data used in the provision of healthcare is not affected by any errors which occur during development and testing?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is the configuration of equipment and software checked regularly to ensure that it only performs the intended functions?"
+        }
+    ]
+    },
+    {
+    "section": "5", 
+    "sectionDescription": "", 
+    "questionsList": 
+    [
+        {
+            "questionTitle": "",
+            "q" : "Is the configuration protected from malware?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is the configuration protected from unintended events?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are configuration changes, i.e. changes to equipment and/or software, only taken into use when: • A risk assessment has been carried out which demonstrates that an acceptable level of risk is achieved?• A test has been carried out which ensures that the expected functions are performed? • Implementation has been carried out which provides protection against unforeseen events? • New configuration has been documented?• Configuration changes have been approved by the organisation’s manager or the person designated by the management?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are configuration checks regulated through an agreement concerning: • Use by a processor?  • Use of remote access for maintenance and updates (Remote access shall only be gained via channels over which the organisation has control)?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are all changes of significance to information security within the organisation, information systems and infrastructure anchored at the relevant managerial level?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Has the organisation established procedures for change management, which encompass the following topics: • Identification of material changes • Planning and testing of changes • assessment of potential consequences, for example by conducting a risk assessment and, where appropriate, a data protection impact assessment • Approval procedure for changes?  • Communication of plan to relevant persons/roles • Back-up procedures if the change has to be cancelled or fails or incidents occur •  Change log with relevant information • Training of relevant users/roles"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation’s management ensure that back-ups are made of personal health data as well as other information that is necessary for the restoration of normal operation?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are back-ups stored in a locked and fire-proof facility and kept separate from operating equipment?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are regular tests carried out to ensure that back-ups are correct and can be restored?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is at least one back-up protected against malware and incidents?"
+        },
+        
+        {
+            "questionTitle": "",
+            "q" : "Is at least the following logged: • Authorised use of information systems • All system and administrator use for information systems and infrastructure • Configuration and software changes • Security-relevant incidents in security barriers • Attempted unauthorised use of information systems and infrastructure  • Use of self-authorisation"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is at least the following recorded in the logs in the event of the authorised use of personal health data filing systems for therapeutic purposes:• Identity of the person who retrieved health data • Organisational affiliation of the person who retrieved the health data • The basis for the disclosure•The time period for the disclosure"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are the requirements in the case of the processing of personal health data for purposes other than the provision of healthcare and care services determined on the basis of a risk assessment?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Can logs readily be analysed using analysis tools with the aim of detecting breaches?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Have procedures been established to analyse the logs to ensure that incidents are detected before they have serious consequences?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is it handled as a breach, if the breach is detected by analysing the logs? "
+        },
+        {
+            "questionTitle": "",
+            "q" : "Have procedures been established to ensure that logs can be compared with the authorisation log as and when necessary?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are logs protected against alteration and erasure by unauthorised personnel?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Do logs have a correct timestamp?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are logs generated in connection with the provision of healthcare stored until it is considered that there is no longer any use for them?"
+        }
+    ]
+    }
+    ,
+    {
+    "section": "6", 
+    "sectionDescription": "", 
+    "questionsList": 
+    [
+        {
+            "questionTitle": "",
+            "q" : "Do management and handling of technical vulnerabilities follow the relevant procedures for change management?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation have procedures for obtaining information concerning technical vulnerabilities in equipment and software?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Have procedures and operational measures been established which address: • Responsibility for: monitoring, risk assessment, correction and coordination • How the organisation should respond to and report vulnerabilities • Prioritisation and establishment of time line for correction"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation’s management follow up to ensure that security is being safeguarded through regular and at least annual security audits?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is there an approved plan for security audits?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are results, conclusions and breaches derived from security audits documented and dealt with by the organisation?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Has the organisation clearly defined the requirements that apply to network security, and the measures that have been implemented based on a risk assessment?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "In the case of connections to networks which are located outside the organisation, have technical measures been established which ensure that: • Only explicitly permitted traffic may pass from the outside in or vice versa; all other traffic is stopped • The measures shall include at least two independent technical measures to ensure that persons outside the organisation are unable to gain unauthorised access to and/or alter or erase personal health data"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Has clear responsibility been established between the sender, recipient and any message mediator in the event of message mediation?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Have all agreements regarding message mediation been established in writing? "
+        },
+        {
+            "questionTitle": "",
+            "q" : "Has it been agreed that the tendering organisation shall be responsible for: •its own connection security which prevents unauthorised access and penetration • ensuring that the service cannot disseminate software which contain malware or similar • secure transmission encryption end-to-end"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Has it been agreed that the user organisation shall be responsible for: • ensuring that the service cannot disseminate software which contain malware or similar • its own connection security which prevents unauthorised access and penetration• ensuring secure transmission encryption end-to-end"
+        },
+        {
+            "questionTitle": "",
+            "q" : "ensuring that, as and when necessary, the message is signed in such a way that the organisation cannot deny that it sent it • correct addressing of electronic interaction messages in accordance with the address register  • ensuring that, as and when necessary, the message is signed in such a way that the organisation cannot deny having sent it • breaches reporting in connection with erroneous sending • ensuring that messages are delivered in the agreed format"
+        },
+        {
+            "questionTitle": "",
+            "q" : "In connection with message communication based on the ebXML framework, has it been agreed that the recipient shall be responsible for: • logging receipt as and when necessary, so that the recipient cannot deny having received the message  • breaches reporting in connection with errors, i.e. receipt of a message which is not addressed to the organisation • ensuring that messages are received in the agreed format"
+        },
+        {
+            "questionTitle": "",
+            "q" : "In connection with message communication based on the ebXML framework, has it been agreed that the message mediator shall be responsible for: • ensuring that messages are only delivered to the addressee • ensuring that messages cannot be altered or destroyed during transport from the sender to the recipient • ensuring that messages cannot be read by anyone other than the sender and recipient • ensuring that messages are delivered by the agreed deadlines following dispatch  • breaches reporting in connection with all the above points"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are the following security principles followed in connection with data sharing: • There must be secure user authentication (consumer authentication) which is trusted by organisations that offer data sharing interfaces • Any organisation that requests access shall verify that the user (consumer) has the necessary authorisations for the data sharing interface concerned • A distinction shall be made between read and write rights for different information elements based on the individual user authorisation • Unnecessary intermediate storage shall be avoided • It shall be possible for clients to verify the legitimacy of the data sharing interface and the organisation that is offering it • Common components for consumer authentication shall be used where available and expedient "
+        },
+        {
+            "questionTitle": "",
+            "q" : "Has the organisation established measures to prevent personal health data and other information of importance to information security from being disclosed through the use of unencrypted e-mail and SMS or other insecure channels?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation ensure, through technical and organisational measures, that e-mail does not contain identifiable health data when unencrypted channels are used?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation implement logging when unencrypted channels are used, in order to ensure that rules are not broken?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation process rule breaches when unencrypted channels are used as breaches?"
+        }
+    ]
+    }
+    ,
+    {
+    "section": "7", 
+    "sectionDescription": "", 
+    "questionsList": 
+    [
+        {
+            "questionTitle": "",
+            "q" : "When unencrypted channels are used, does the organisation assess whether the collective information in an SMS or e-mail could result in a breach of the duty of confidentiality?"
+        },
+        {
+            "questionTitle": "",
+            "q" : ""
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are all technical equipment and applications that connect to the internet covered by the organisation's measures relating to information security and data protection, including in risk assessments, access management and procedures regarding use?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Has the organisation implemented the following measures when connecting to the internet:  • technical measures which help to prevent accidental disclosure and unauthorised access to personal health data? • logging to verify that rules are not broken. Breaches of rules shall be handled as a breaches and personnel-related consequences shall be considered?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation consider and determine the basis for processing in connection with digital communication with the data subject?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation assess suitable solutions and communication channels in connection with digital communication with the data subject?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation ensure that personal health data is not made available in such a way that patients/health care users are dependent on storing the data on their own equipment in order to familiarise themselves with the information?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation ensure that procedures are established to ensure that messages to patients are not intrusive and do not violate privacy, while at the same time providing the patients with sufficient information?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation implement sufficient measures to ensure that messages are sent to the correct recipient?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the supplier ensure that controllers who use the supplier's products and services are able to fulfil statutory requirements and the requirements of the Code?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the supplier ensure that it has procedures in place which impose a duty of confidentiality on all employees concerning personal health data and other confidential information?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is the controller ensured access to the supplier’s confidentiality declarations if necessary?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "In connection with the provision of services or the delivery of hardware, systems, etc, have the security requirements that must be met in order for the controller to fulfil its responsibilities been agreed in writing with suppliers?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Do the agreements include obligations which require the parties to fulfil the requirements and measures that follow from the Code for information security in force at any one time, as well as regulations concerning sanctions in the event of a breach of the Code and the agreement in general?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation ensure, through relevant agreements, that the supplier has satisfactory internal control in place with regard to security audits and breaches management?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "In the event of the contracting out of services (outsourcing) covering ICT functions or other functions of significance to information security or data protection, does the agreement cover at least cover the following points: • documented risk assessment which demonstrates that the level of risk to which the outsourcing organisation is exposed is acceptable and that the level of security stipulated in the Code has been established. When outsourcing ICT services to other countries, the circumstances in the host country should be assessed because they may impact on the risk assessment. • the tasks that are of significance to security which are covered, and the responsibility for such tasks • description of the supplier's solution and interface with respect to the organisation in the form of a configuration map"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the agreement ensure that the organisation is also granted the right to audit the supplier's activities relating to the agreement?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation have an appropriate plan in place to safeguard information security and data protection upon conclusion of the service delivery?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "In connection with the outsourcing of services, has it been agreed that, upon termination of the contract, a signed declaration shall be provided by the supplier confirming that all data belonging to the organisation has been returned or erased by the agreed time?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Has it been agreed that the processor shall only process personal health data in accordance with instructions from the controller?"
+        }
+    ]
+    }
+    ,
+    {
+    "section": "8", 
+    "sectionDescription": "", 
+    "questionsList": 
+    [
+        {
+            "questionTitle": "",
+            "q" : "Does the agreement stipulate how the processor may process data on behalf of the controller?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the agreement stipulate that the controller may only use processors who provide adequate guarantees that they will implement appropriate technical and organisational measures which ensure that the processing fulfils the requirements of the Personal Data Act?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the agreement stipulate that the processor shall not engage subcontractors without the prior specific or general permission of the controller? "
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the agreement stipulate that, if general, written permission is obtained, the processor shall notify the controller of any plans to substitute subcontractors?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the agreement with the supplier stipulate that subcontractors are subject to the same obligations as the processor under the processor agreement?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Has it been agreed that the agreement between the supplier and the subcontractor may be made available to the controller?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Has the processor agreement been established in writing?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the agreement state that the processor undertakes to fulfil statutory requirements and the requirements of the Code?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the processor maintain an overview (record) of all categories of processing activities that are carried out on behalf of a controller?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the controller ensure that the processor receives the information necessary to enable the processor to obtain such an overview?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "If the processor processes personal health data from a number of organisations, has the processor implemented technical measures which cannot be overridden by users to ensure that barriers are established between the organisations in accordance with the completed risk assessment?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the processor notify the controller without delay of any breaches relating to data protection security?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Through an agreement concerning maintenance, remote access and physical service, has the organisation ensured that: • the supplier’s equipment that is used for an online connection via a communication network or supplied equipped which is connected to the organisation’s equipment has no malware which contains viruses, etc. and that the equipment is protected against access by unauthorised parties • all access and physical access shall be authorised by the organisation. Access shall be logged and controlled • availability of personal health data shall insofar as is possible be maintained when the supplier performs work on the organisation’s equipment/software"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Do organisations in the healthcare and care services sector which use information systems that process personal health data require built-in data protection in the solutions?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Do the information systems have functionality that meets statutory and relevant requirements in the Code?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are procurement, supplier follow-up and supplier management covered by the organisation’s information security management system? All phases of supplier management, from procurement to conclusion of the agreement, shall be covered."
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation ensure supplier follow-up through: • clarity regarding responsibilities and roles • ensuring that specialist resources within information security and data protection participate in procurements and supplier management • ensuring that the organisation’s management (and the board if relevant) are normally involved in decisions concerning the use of private suppliers and/or the outsourcing of services with a certain scope"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is the establishment of requirements and necessary security measures in connection with the use of suppliers based on a comprehensive risk assessment?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Do risk assessments in connection with the use of suppliers always encompass scenarios that include the supplier's authorised and, where applicable, unauthorised access to personal health data and other confidential information?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is it ensured that relevant security requirements are included in all procurements?"
+        }
+    ]
+    }
+    ,
+    {
+    "section": "9", 
+    "sectionDescription": "", 
+    "questionsList": 
+    [
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation ensure that it has sufficient client expertise at its disposal?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Do organisations which transfer personal data to other countries ensure that the level of protection stipulated in the Personal Data Act is not undermined through the transfer?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "When the organisation transfers personal data to states outside the EU/EEA, known as “third countries”, does it use one of the grounds for transfer stipulated in the Regulation?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "When transferring data to countries outside the EU/EEA, does the organisation have sufficient expertise (e.g. legal expertise) at its disposal in order to implement this in accordance with applicable requirements?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the controller carry out comprehensive risk assessments in connection with the use of cloud services and otherwise follow the requirements for agreements and supplier monitoring stipulated in the Code?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are the following points safeguarded in connection with the use of cloud services: • the distribution of responsibility between the controller and the processor has been clarified, and adapted to the delivery model being used  • the controller has an overview of where data is processed geographically, so that the requirements of section 5.7.8 can be addressed • the controller shall ensure that any standard agreements that the cloud provider may have are not in breach of applicable statutory requirements and the requirements of the Code • the controller shall have an appropriate plan in place to safeguard information security and data protection upon conclusion of the cloud service"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are incidents (such as breaches of procedures, data protection or information security) treated as a breach?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are breaches processed in order to restore the normal state, eliminate the cause of the breaches and prevent repetition?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation have procedures in place for detecting and managing breaches?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Is the processing of breaches documented?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation collect factual information concerning the sequence of events to enable corrective measures to be established?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are the effects of corrective measures assessed, and are any other measures implemented as and when necessary?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "In the event of serious or repeated breaches, is a new risk assessment carried out?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Are breaches reports containing personal data or information of importance to information security secured?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "If a breach constitutes a breach of personal data security and has resulted, or will result, in a medium or high risk for the data subject, will the controller report the breaches to the Norwegian Data Protection Authority within 72 hours? "
+        },
+        {
+            "questionTitle": "",
+            "q" : "Will the data subject be notified of the breaches if it is likely that the breaches will entail a high level of risk for the data subjects (patients/users)?"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation provide data subjects with at least the following information: • Description of the breach • Name and contact details for the data protection officer or other point of contact where more information may be obtained • Description of the likely consequences of the breaches • Description of the measures that the organisation has implemented or is proposing to implement in order to manage the breach, including (where relevant) measures to reduce any harmful effects of the breach"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Do organisations that provide healthcare and care services notify the Norwegian Board of Health Supervision of any breaches arising from errors and breaches in information systems? The duty of notification shall be triggered • in the event of death or very serious injury to a patient or healthcare user • as a result of the provision of healthcare and care services • when the outcome is unexpected based on foreseeable risks"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation ensure the following in connection with incidents which result in notification of the Norwegian Board of Health Supervision: • follow up and inform patients and relatives • review the incident • identify and follow up risk mitigation measures"
+        },
+        {
+            "questionTitle": "",
+            "q" : "Does the organisation ensure that the necessary personal health data is available?"
+        }
+    ]
+    },
+    {
+    "section": "10", 
+    "sectionDescription": "", 
+    "questionsList": 
+    [
+        {
+            "questionTitle" : "",
+            "q" : "Has the organisation mapped the consequences of non-availability in order to be able to establish emergency procedures to safeguard availability? The mapping shall be assessed for both the organisation and its authorised users."
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Are systems classified according to the following prioritisation:  • Systems where the non-availability of a service could be critical, e.g. o life-threatening for a patient  o critical for the organisation’s operation • Systems where the non-availability of a service could have severe consequences, such as:  o increased risk of treating patients incorrectly o deferment of medical investigations and treatment which could impact on life or health o considerable additional work for personnel o lost revenue for the organisation • Systems where the non-availability of a service could have moderate consequences, such as:  o delays to medical investigations and treatment without any serious health consequences o some additional work for personnel  o lost revenue for the organisation o decreased reputation o reduced confidence o loss of efficency • Systems where protracted non-availability could be accepted • Low priority systems"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Is a review also carried out to determine which other systems and infrastructure the classified systems are dependent on? These shall have the same classification and acceptable level of risk as the classified systems."
+        },
+        {
+            "questionTitle" : "",
+            "q" : "For each classification, has the management determined an acceptable level of risk for availability, in the form of at least a maximum period of non-availability? "
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Has the organisation established emergency procedures based on the classification of the information systems for: • Alternative operation without the use of the information systems • Alternative operation with partial support from the information systems"
+        },
+        {
+            "questionTitle" : "",
+            "q" : "Are the emergency procedures practised, tested, revised and updated at least once a year?"
+        }
+    ]
+    }
+    
+
+    
+]

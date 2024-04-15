@@ -1,0 +1,173 @@
+/* 
+* body style: centralize the content of the body-
+* adding background color, and the text color.
+*/ 
+body  {
+    background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(194, 194, 194));
+    text-align: center;
+    justify-content: center;
+  }
+
+/* 
+* adding custom color and styling to the nav- 
+* to match our page style
+*/ 
+.navbar {
+   background-color: #0c0c0f;
+   margin-bottom: 0;
+   border-radius: 0;
+   font-size: medium;
+}
+.navbar-brand{
+   padding-right: 50px;
+}
+
+/*
+* style for the h1 and h2-
+* adding a color and font styling
+*/  
+h1, h2 {
+   color: rgb(29, 29, 29);
+   margin: 2%;
+   text-align: center;
+   font-size: large;
+   font-weight: bolder;
+}
+
+/*
+* style for the p-
+* adding a color and font styling-
+* and position
+*/ 
+p {
+   text-align:start;
+   justify-content:left;
+   color: black;
+   font-size: 2.5rem;
+}
+
+/*
+* Style for the question box/container
+* adding a color and position.
+*/
+#question-box {
+   background-color: rgb(190, 189, 188);
+   position: relative;
+   width: 800px;
+   margin: 0 auto;
+   border-radius: 8%;
+   padding: 20px;
+   margin-top: 3.5%;
+   margin-bottom: 5%;
+}
+  
+/*
+* Buttons styling
+*/ 
+button{
+   background-color: rgb(10, 105, 23);
+   color: rgb(255, 255, 255);
+   border: 0;
+   width: auto;
+   padding: 8px;
+   border-radius: 10%;
+   cursor: pointer;
+   margin: 2%;
+}
+button:hover{
+   background-color: rgb(17, 170, 38);
+}
+
+/*
+* style for answers label
+*/
+label{
+   font-size: 1.8rem;
+   padding: 3%;
+   padding-left: 0.5%;
+   color: black;
+}
+/*
+* style for answers input
+*/
+input{
+   cursor: pointer;
+   padding: 4%;
+}
+
+/*
+* style for the page number at the bottom
+*/
+.pageNr{
+   color: rgb(0, 0, 0);
+   font-size:medium;
+   margin-bottom: -1%;
+}
+
+/*
+* style for the tip button 
+* (The question mark)
+*/
+.tipButton{
+   background-color: #e6ee70;
+   font-weight: bolder;
+   border-radius: 50%;
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   right: 100%;
+}
+
+/*
+* style for the text container
+*/
+.tipText {
+   background-color: rgb(235, 224, 71);
+   color: rgb(0, 0, 0);
+   border-radius: 10%;
+   width: 60%;
+   padding: 2%;
+   position:relative;
+   left: 20%;
+}
+
+/*
+* style for the tips title 
+* (Not allt tips has a title)
+*/
+.tip-title{
+  font-weight: bold;
+}
+
+/*
+* logo image in navbar styling 
+*/
+.logo-img{
+    margin-top: 15%; 
+    max-height: 40px; 
+    max-width: 50px;
+}
+
+ 
+/*
+* Custom styling for the small screens
+*/
+@media (max-width: 800px){
+    #question-box {
+      padding: 3%;
+      max-width: 90%;
+    }
+
+    .tipText {
+      padding: 2%;
+      position:relative;
+      left: 4%;
+      width: 95%;
+    }
+    .logo-img{
+      max-height: 45px; 
+      max-width: 55px;
+      margin-top: 1%; 
+      margin-left: 15%; 
+    }
+  }

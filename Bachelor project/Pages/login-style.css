@@ -1,0 +1,196 @@
+/* 
+* body style: centralize the content of the body-
+* adding background color, and the text color.
+*/ 
+body{
+background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(194, 194, 194));
+color: #000000;
+text-align: center;
+justify-content: center;
+}
+
+/* 
+* adding custom color and styling to the nav- 
+* to match our page style
+*/ 
+.navbar {
+background-color: #0c0c0f;
+margin-bottom: 0;
+border-radius: 0;
+}
+.navbar-brand{
+padding-right: 50px;
+}
+
+/*
+* style for the page
+*/
+.login-page{
+position: relative;
+height: 30%;
+margin-top: 0;
+}
+
+/*
+* style for the box-title
+*/
+.formTitle{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display:block;
+text-align:center;
+}
+
+/*
+* style for the login description
+*/
+.login-des{  
+display: block;
+align-items: center;
+width: 40%;
+height: 40%;
+margin: 10%;
+margin-left: 10%;
+font-size: 1.9rem;
+margin-top: 4%;
+}
+/*
+* style for the login description text
+*/
+.login-des, P{
+text-align: left;
+}
+
+/*
+* style for the login box
+*/
+.login-box{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+}
+
+/*
+* style for the form in login box
+*/
+.login-box form {
+background-color:#0c0c0f;
+box-shadow:3px 3px 4px rgba(0, 10, 12, 0.2);
+color:#fff;
+position:absolute;
+max-width:330px;
+max-height:730px;
+width:90%;
+height:68%;
+padding:40px;
+border-radius:4px;
+transform:translate(-50%, -50%);
+top:50%;
+left:70%;
+font-size: 2rem;
+}
+
+/*
+* style for the logo (lock)
+*/
+.login-box .illustration {
+  text-align:center;
+  padding:15px 0 20px;
+  font-size:100px;
+  color:#2980ef;
+}
+
+/*
+* style for the form-control
+*/
+.login-box form .form-control {
+  background:none;
+  border:none;
+  border-bottom:1px solid #434a52;
+  border-radius:0;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+  font-size: medium;
+}
+
+/*
+* style for the button
+*/
+.login-box form .btn-primary {
+  background:#214a80;
+  border:none;
+  border-radius:4px;
+  padding:11px;
+  box-shadow:none;
+  margin-top:46px;
+  text-shadow:none;
+  outline:none;
+  font-size: medium;
+}
+/*
+* style for the hover button
+*/
+.login-box form .btn-primary:hover, .login-box form .btn-primary:active {
+  background:#0b9eb8;
+  outline:none;
+}
+
+/*
+* style for the hover button
+*/
+.login-box form .btn-primary:active {
+  transform:translateY(1px);
+}
+
+
+/*
+* logo image in navbar styling 
+*/
+.logo-img{
+  margin-top: 15%; 
+  max-height: 40px; 
+  max-width: 50px;
+}
+
+/*
+* style for the logo displayed in about.php
+*/
+.page-logo{
+display: block;
+align-items: center;
+width: 30%;
+margin-left: 32%;
+}
+
+/*
+* Custom styling for the small screens
+*/
+@media (max-width: 768px) {
+  .login-box {
+    margin-top: 45%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-text {
+    width: 80%;
+    margin: 10% auto 0;
+  }
+  
+  .login-box form {
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 55%;
+  }
+  .logo-img{
+    max-height: 45px; 
+    max-width: 55px;
+    margin-top: 1%; 
+    margin-left: 15%; 
+  }
+  .page-logo{
+    display:none;
+  }
+
+}

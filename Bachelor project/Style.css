@@ -1,0 +1,145 @@
+/* 
+* body style: centralize the content of the body-
+* adding background color, and the text color.
+*/ 
+body {
+  background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(194, 194, 194));
+  color: #000000;
+  text-align: center;
+  justify-content: center;
+}
+
+
+/* 
+* adding custom color and styling to the nav- 
+* to match our page style
+*/ 
+.navbar {
+  background-color: #0c0c0f;
+  margin-bottom: 0;
+  border-radius: 0;
+  font-size: medium;
+}
+.navbar-brand {
+  padding-right: 50px;
+}
+
+/*
+* The main-text styling- 
+* (At the top of the page)
+*/
+.main-content {
+  width: 80%;
+  margin: auto;
+  font-size:medium;
+}
+
+/*
+* Containers position and displaying type
+*/
+.page-containers {
+  position: relative;
+}
+.grid-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/*
+* Containers styling and size 
+*/
+.containers{
+  background-color: #141414;
+  color: #ffffff;
+  font-size: large;
+  border-radius:3%;
+  width: 620px;
+  height: fit-content;
+  padding: 1%; 
+  margin: 3%;
+}
+
+.container-text{
+  width: fit-content;
+  height:400px;
+  max-height: 800px;
+  margin: 1%;
+  margin-bottom: 4%;
+  line-height: 1.5;
+}
+
+/*
+*  The container image styling
+*/
+.container-img{
+  width: 100%;
+  height:260px;
+  border-radius:3%;
+}
+
+/*
+*  The container title styling
+*/
+.container-title {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:4rem;
+  margin: 25px;
+  }
+
+
+/*
+* The containers will go up and-
+* change the cursor and color  
+*/
+.containers:hover {
+  background-color: #2c2c2c;
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+/*
+* logo image in navbar styling 
+*/
+.logo-img {
+  margin-top: 15%; 
+  max-height: 40px; 
+  max-width: 50px;
+}
+
+
+/*
+* Custom styling for the small screens
+*/
+@media (max-width: 768px) {
+  .main-content{
+    font-size: 1.4rem;
+  }
+  .container-text{
+    width: fit-content;
+    height:fit-content;
+  }
+  
+  .containers {
+    width: 95%;
+    height: fit-content;
+    max-height: fit-content;
+    font-size: 1.4rem;
+  }
+
+  .grid-containers {
+    flex-direction: column;
+  }
+
+  .container-title,h2 {
+    font-size: 2rem;
+  }
+
+  .logo-img {
+    max-height: 45px; 
+    max-width: 55px;
+    margin-top: 1%; 
+    margin-left: 15%; 
+  }
+}

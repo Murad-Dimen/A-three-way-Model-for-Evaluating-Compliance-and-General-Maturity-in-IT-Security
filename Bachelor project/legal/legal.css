@@ -1,0 +1,140 @@
+/* General */
+
+
+body  {
+    background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(194, 194, 194));
+    text-align: center;
+    justify-content: center;
+    }
+
+    #question-box {
+      position: relative;
+      width: 60%;
+      margin: 0 auto;
+      background-color: rgb(190, 189, 188);
+      border-radius: 8%;
+      padding: 20px;
+      margin-top: 3.5%;
+      margin-bottom: 5%;
+    }
+    
+  
+    .navbar {
+      font-size: medium;
+      background-color: #0c0c0f;
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    .navbar-brand{
+      padding-right: 50px;
+    }
+    
+    
+    h1, h2 {
+      color: rgb(29, 29, 29);
+      margin: 2%;
+      text-align: center;
+      font-size:medium;
+      font-weight: bolder;
+    }
+    
+  
+    p{
+      color: black;
+      font-size: 2rem;
+    }
+  
+    
+    button{
+      background-color: rgb(10, 105, 23);
+      color: rgb(255, 255, 255);
+      border: 0;
+      width: auto;
+      padding: 8px;
+      border-radius: 10%;
+      cursor: pointer;
+      margin: 2%;
+    }
+  
+    button:hover{
+      background-color: rgb(17, 170, 38);
+    }
+  
+    label{
+      font-size: 1.5rem;
+      padding: 1%;
+      color: black;
+    }
+  
+    input{
+      cursor: pointer;
+      padding: 1%;
+    }
+  
+    .pageNr{
+      color: rgb(0, 0, 0);
+      font-size:medium;
+      margin-bottom: -1%;
+  
+    }
+  
+    .tipText {
+      background-color: rgb(235, 224, 71);
+      color: rgb(0, 0, 0);
+      border-radius: 10%;
+      width: 60%;
+      padding: 2%;
+      position:relative;
+      left: 20%;
+      
+    }
+    
+    .tip-container{
+    background-color: #e6ee70;
+    font-weight: bolder;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    right: 100%;
+    }
+  
+    .tip-title{
+    font-weight: bold;
+    
+    }
+    
+   
+    /* mobile responsive styles*/
+    @media screen and (max-width: 800px){
+      #question-box {
+        padding: 3%;
+        max-width: 90%;
+      }
+  
+      .tipText {
+        padding: 2%;
+        position:relative;
+        left: 4%;
+        width: 95%;
+      
+        
+      }
+    }
+
+
+    .dropdown-menu {
+        left: 50%;
+        right: auto;
+        text-align: center;
+        transform: translate(-50%, 0);
+      }
+      
+      .logo-img{
+        margin-top: 15%; 
+        max-height: 40px; 
+        max-width: 50px;
+      }
+      
+  

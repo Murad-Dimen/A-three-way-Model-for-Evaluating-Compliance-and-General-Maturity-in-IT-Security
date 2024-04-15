@@ -1,0 +1,58 @@
+[
+    
+    { 
+     "section": "Health", 
+     "sectionDescription": "text ", 
+     "questionsList": 
+     [
+     {
+        "questionTitle":"Policies for Health ",
+        "q":"1. ?"
+    },
+     {
+        "questionTitle":" ",
+        "q":"2. ?"
+    }
+    ]
+    },
+
+    { 
+     "section": "A.6 Organization of information security",  
+     "sectionDescription": "", 
+     "questionsList": 
+     [
+     {
+        "TipsTitle":"A.6.1 Internal organization:",
+        "Tips":"Annex 6.1 is about the framework the organization has regarding information security as well as the controls within.  It has how you would interact with governing bodies as well as special interest groups.", 
+        "questionTitle":"Information security roles and responsibilities ",
+        "q":"3. Are all roles within the organization within information security defined and distributed?"
+    },
+     {
+        "questionTitle":"Segregation of duties",
+        "q":"4. Are conflicting duties and areas of responsibility segregated in order to avoid any unauthorized or unintentional modifications to data?"
+    },
+    {
+        "questionTitle":"Contact with authorities",
+        "q":"5. Would you describe the company to have a well-functioning relationship with the relevant authorities?"
+    },
+    {
+        "questionTitle":"Contact with special interest groups",
+        "q":"6. Have you established a bilateral relationship with other specialized groups or professional associations, which can be beneficial for the company?"
+    },
+    {
+        "questionTitle":"Information security in project management",
+        "q":"7. Does the company make sure to apply the security policies within all sectors or projects the company is involved in?"
+    },
+    {
+        "TipsTitle":"A.6.2 Mobile devices and teleworking",
+        "Tips":"Annex 6.2 is policies surrounding teleworking how it will be done as well as mobile device policies.",
+        "questionTitle":"Mobile device policy ",
+        "q":"8. Do you have a policy supporting security measures to manage risk associated with mobile devices? "
+    },
+     {
+        "questionTitle":"Teleworking",
+        "q":"9. Does the company have a specific policy or security measures to protect information accessed, processed or stored at teleworking sites?"
+    }
+    ]
+    }
+]
